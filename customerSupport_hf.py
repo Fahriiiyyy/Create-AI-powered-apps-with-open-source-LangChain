@@ -5,7 +5,7 @@ from langchain_community.llms import HuggingFaceEndpoint
 import os
 
 # Mengatur LLM
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "API_TOKEN_KAMU"
 llm = HuggingFaceEndpoint(repo_id="google/flan-ul2")
 
 def handle_complaint(komplain: str) -> str:
